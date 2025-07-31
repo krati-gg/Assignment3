@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.header{
+    margin: 0;  
+    padding: 20px 0;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.boxes, .username{
+    padding: 50px  0;
+    align-items: center;
+    text-align: center;
+    
+}
+.boxes > .btn-color > .box{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 50px;
+    color: grey;
+    
+}
+/* #box-1{
+    background-color: red;
+}
+#box-2{
+    background-color: blue
+}
+#box-3{
+    background-color: green
+}
+#box-4{
+    background-color: yellow
+} */
